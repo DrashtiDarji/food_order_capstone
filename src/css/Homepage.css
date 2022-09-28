@@ -1,0 +1,395 @@
+.add_food_re{
+   width: 90% !important;
+   /* background-color: green; */
+   margin-left: 5%;
+   height: 200px;
+   /* position: absolute; */
+   margin-top: 0vh;
+   font-family: capfont;
+   
+}
+
+.add_food_btn{
+    height: 80px;
+    width:250px;
+    font-size: 30px;
+    background: #FAD02C;
+    font-weight: bold;
+    /* outline: none; */
+    border-radius: 10px;
+
+    /* border: none; */
+}
+
+
+
+.add_food_h1{
+  font-size: 60px;
+  font-weight: bold;
+
+}
+
+.top_mar{
+  padding-top: 10vh;
+}
+
+  /* css for form of add food Item */
+
+  .create_form{
+    width: 100%;
+    /* padding: 30px 40%; */
+    /* margin-top: 160px ; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.file_inp{
+  margin-top: 5px;
+  border: none !important;
+  outline: none;
+}
+
+
+.adFood_file >h2{
+  width: 50%;
+}
+.food_list_section{
+  width: 100%;
+  height: 600px;
+  border: none;
+  outline: none;
+  /* background-color: yellow; */
+}
+
+
+/* css for food Listing */
+.food_list_container{
+  width: 95%;
+  height: 100vh;
+  display: flex;
+  margin-top: 10px;
+ 
+}
+
+.left_pannel{
+  height: 400px;
+  width: 20%;
+  /* background-color: red; */
+  padding-left: 30px;
+  row-gap: 10px;
+  font-family: capfont;
+  font-size: 40px;
+}
+.right_pannel{
+  height: 100%;
+  width: 80%;
+  font-family: capfont;
+  /* overflow: scroll; */
+}
+
+
+/* food Cart */
+
+.food_type_list{
+  font-size: 50px;
+  font-weight: bold;
+  background-color: #ADB3BC;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  
+}
+
+.food_type{
+  border: none;
+  outline: none;
+  height: 50px;
+  background-color: green;
+}
+
+.food_cart{
+  width: 100%;
+  height: 300px;
+  /* background-color: green; */
+}
+
+.img_cart{
+  height: 250px;
+  width: 250px;
+  /* background-color: yellow; */
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.desc_cart{
+  width: 60%;
+}
+.food_description{
+  width: 100%;
+  overflow-y: scroll;
+  font-family: capfont;
+  font-size: 30px;
+  justify-self: start;
+}
+.food_description::-webkit-scrollbar {
+  display: none;
+}
+.food_description {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.update_delete{
+  font-size: 30px;
+}
+
+.bi-pencil-fill{
+  cursor: pointer;
+  color: green;
+}
+
+.bi-trash3-fill{
+  cursor: pointer;
+  color: red;
+}
+/* User Homepage css */
+
+.banner{
+  width: 100%;
+  height: 20vh;
+  /* background-color: red; */
+}
+
+.video_banner{
+  width: 100%;
+  height: 100%;
+}
+
+
+.default_cards{
+  /* background-color: yellow; */
+  width: 60%;
+  height: 70vh;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 20px;
+  padding-right: 5px;
+  overflow: scroll;
+  /* background-color: yellow; */
+}
+.default_cards::-webkit-scrollbar {
+  display: none;
+}
+
+.default_cards {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
+.comman_container{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.single_card{
+  width: 90%;
+  height: 350px;
+  border-radius: 5px;
+  cursor: pointer;
+  border-bottom: 1px solid grey;
+  font-family: capfont;
+}
+.single_card_description{
+  margin: 10px;
+  width: 500px;
+}
+
+.default_img{
+  width: 250px;
+  height: 250px;
+  /* position: relative; */
+  border-radius: 5px;
+}
+
+.def_img{
+  width: 100%;
+  height: 100%;
+  /* position: absolute; */
+  /* left: 0;
+  top: 0; */
+  cursor: pointer;
+  border-radius: none;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+/* .save_img_overlay{
+  position: absolute;
+  width: 50px;
+  height: 20px;
+  background-color: black;
+  left: 10px; 
+  top: 10px;
+  left: 0;
+  font-size: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 5px;
+  z-index: 100000;
+} */
+
+
+
+.bookmark_icon{
+  color: #32CD30;
+}
+.bookmark_detail{
+  align-self: center  ;
+  color: #1A4314;
+}
+
+.food_name{
+  /* font-size: 20px; */
+  color: #050606;
+  font-weight: bold;
+
+}
+
+.food_price > span{
+  font-weight: bold;
+}
+
+
+.add_remove_qty{
+  justify-self: flex-end;
+  margin-left: 250px;
+  width: 150px;
+  height: 65px;
+  font-size: capfont;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.food_name_card{
+  width: 100%;
+}
+
+.veg_icon{
+  color: green;
+  margin-right: 20px;
+}
+
+.non_veg_icon{
+  color: red;
+}
+
+.add{
+  width: 100%;
+  height: 100%;
+  background-color: #FAD02C;
+  align-self: center;
+  border-radius: 10px;
+
+}
+
+.plus_minus{
+  width: 100%;
+  height: 100%;
+  background-color: #FAD02C ;
+  font-size: 40px;
+  border-radius: 10px;
+}
+
+.bi-plus{
+  color: green;
+}
+
+/* cart css */
+
+.single_cart{
+  height:200px ;
+  
+}
+.cart_title{
+  margin-top: 20px;
+  font-size: 50px;
+  font-weight: bold;
+
+}
+
+.cart_container{
+  width: 40%;
+  height: 900px ;
+  background-color: #efefef;
+  margin-right: 0px;
+  font-family: capfont;
+
+}
+.all_carts{
+  width: 100%;
+  min-height: 60px;
+  overflow: scroll;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.all_carts::-webkit-scrollbar {
+  display: none;
+}
+.all_carts {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
+.calculated_amount{
+  display: none;
+}
+
+.finalOrder >h1 {
+  cursor: pointer;
+  background-color: #FAD02C;
+  width: 600px;
+}
+
+.cart_food_name{
+  font-weight: bold;
+}
+
+
+.final_amount{
+  font-size: 40px;
+  font-weight: bold;
+  font-family: capfont;
+}
+
+.checkout_button{
+  cursor: pointer;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: capfont;
+}
+
+@media (min-width:280px) and (max-width:420px){
+  .banner{
+      width: 100%;
+      height: 40vh;
+      margin-top: 40px;
+  }
+  .single_card{
+    width: 89%;
+  }
+}
+
+@media (min-width:640px) and (max-width:920px){
+  .single_card{
+    width: 30%;
+  }
+}
+

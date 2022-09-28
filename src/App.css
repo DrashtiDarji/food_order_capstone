@@ -1,0 +1,242 @@
+.App {
+  text-align: center;
+  
+}
+.head_body{
+  position: relative;
+}
+@font-face {
+  font-family: capfont;
+  src: url('../public/fonts/capfont/AbyssinicaSIL-Regular.ttf');
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+/* modal css */
+.modal{
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: capfont;
+  /* top: 0; */
+  
+  /* color: lightgray; */
+}
+.add_food_modal_child{
+  width: 40%;
+  min-height: 50%;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  padding-bottom: 50px;
+  /* position: relative; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  
+}
+
+
+.add_food_modal_head{
+ width: 100%;
+ font-weight: bold;
+ font-size: 50px;
+}
+.add_food_modal_head >h1{
+  width: 95%;
+  height: 50px;
+}
+.add_food_modal_head >i{
+  /* margin-right: 0px; */
+  width: 5%;
+}
+
+
+.add_food_form{
+  margin-top: 20px;
+  width: 600px;
+  /* height: 400px; */
+  background-color: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  row-gap: 10px;
+  align-items: flex-start;
+}
+
+.cr_inp{
+  width: 100%;
+  height: 40px;
+  text-indent: 5px;
+  border-radius: 10px;
+  border: 1px solid rgb(117, 112, 112);
+}
+
+.cr_btn{
+  margin-top: 15px;
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: 1px solid #DBDBDB;
+  background-color:#ADB3BC;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+
+}
+
+.user_name{
+  color: white;
+}
+
+.profile_container{
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+  cursor: pointer;
+}
+
+
+.profile_dropdown{
+  width: 10%;
+  padding: 10px 20px;
+  background-color: #505050;
+  position: fixed;
+  z-index: 15;
+  top: 8.5vh;
+  left: 89%;
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  font-family: capfont;
+  font-size: 30px;
+  justify-content: center;
+}
+
+.profile_dropdown::after{
+  content: "";
+  display: block;
+  height: 15px;
+  width: 15px;
+  background-color: #505050;
+  position: absolute;
+  top: -7.5px;
+  transform: rotate(45deg);
+
+}
+
+.profile_dropdown >ul{
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  margin: 0px;
+  line-height: 30px;
+  justify-self: flex-start;
+  align-self: flex-start;
+}
+.profile_dropdown >ul>li{
+  list-style-type: none;
+  height: 30px;
+  cursor: pointer;
+}
+.profile_dropdown >ul>li:hover{
+  color: #E0BB20;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* Header Css */
+
+.header_container{
+  min-height: 60px !important;
+  width: 100%!important;
+  position: fixed;
+  font-family: capfont;
+  background-color: #050606;
+  color: #FDFDFD;
+}
+
+.hearder_logo{
+  width: 20% ;
+  font-size: 78px !important;
+  font-size: bold;
+  font-weight: 20px;
+}
+
+.about_header{
+  width: 30%;
+  font-size: 45px;
+}
+.about_header > h1{
+  padding: 10px;
+}
+
+.about_header > h1:hover{
+  background-color: #ADB3BC;
+}
+
+.user_name:hover{
+  background-color: #ADB3BC;
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* responsive css */
+@media (min-width:420px) and (max-width:620px){
+  .header_container{
+    top: 0;
+    min-height: 40px !important;
+    justify-content:space-between;
+  }
+  .hearder_logo{
+    width: 300%;
+    font-size: 58px !important;
+  }
+  .about_header{
+    margin-left: 0px;
+    width: 70%;
+    font-size: 35px;
+  }
+  .user_name{
+    font-size: 20px;
+  }
+}
